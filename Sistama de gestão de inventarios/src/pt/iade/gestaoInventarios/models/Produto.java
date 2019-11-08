@@ -5,6 +5,7 @@ public class Produto {
 	private String nome;
 	private double preco;
 	private int quantidade;
+	private Categoria categiria;
 	public Produto(int idProduto, String nome, double preco, int quantidade) {
 		this.idProduto = idProduto;
 		this.nome = nome;
@@ -34,6 +35,16 @@ public class Produto {
 	}
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
+	}
+	public Categoria getCategiria() {
+		return categiria;
+	}
+	public void setCategiria(Categoria categiria) {
+		this.categiria = categiria;
+	}
+	@Override
+	public String toString() {
+		return this.nome;
 	}
 	
 }
