@@ -44,12 +44,12 @@ public class Estoque {
 		this.valor = valor;
 	}
 
-	public List<ItemDeEstoque> getItensDeInventario() {
-		return itensDeInventario;
+	public List<ItemDeEstoque> getItensDeEstoque() {
+		return itensDeEstoque;
 	}
 
-	public void setItensDeInventario(List<ItemDeEstoque> itensDeInventario) {
-		this.itensDeInventario = itensDeInventario;
+	public void setItensDeInventario(List<ItemDeEstoque> itensDeEstoque) {
+		this.itensDeEstoque = itensDeEstoque;
 	}
 
 	public Colaborador getColaborador() {
