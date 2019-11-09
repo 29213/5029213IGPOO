@@ -6,6 +6,11 @@ public class Produto {
 	private double preco;
 	private int quantidade;
 	private Categoria categiria;
+	
+	public Produto() {
+		
+	}
+	
 	public Produto(int idProduto, String nome, double preco, int quantidade) {
 		this.idProduto = idProduto;
 		this.nome = nome;
